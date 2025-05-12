@@ -1,6 +1,17 @@
 ### 0. Project deploy 
-
-Весь проект работает на docker + docker-compose. Проходим в каждую папку, настраиваем env variables, и запускаем все docker-compose файлы. Потом проходим на `localhost:<port>` и пользуемся. 
+ 
+1. В `backend/crud` проходим в `src/main/resources/application.properties`, и настраиваем
+   ```
+    jwt.secret=XXXX
+    jwt.expiration=3600000
+    jwt.refreshExpiration=86400000
+    management.endpoints.web.exposure.include=mappings
+    python.service.base-url=http://localhost:8000
+   ```
+2. В `backend/elastic_searcher` нужно скачать модель, весит она около 5гб, запускаем `python download_model.py`. Без нее докер контейнер не соберется.
+3. В `backend/elastic_searcher` настраиваем env variables. 
+4. Настраиваем переменные окружение во всех папках.
+5. `docker-compose up` в каждой папке, заходим на `localhost:<port>` и пользуемся с удовольствием. 
 
 
 ### **1\. Документация**
