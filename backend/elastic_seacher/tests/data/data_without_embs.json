@@ -1,0 +1,207 @@
+[
+  {
+    "contactId": "101",
+    "userId": "400",
+    "name": "Alice Smith",
+    "jobTitle": "Marketing Manager",
+    "tags": [
+      "marketing",
+      "manager"
+    ],
+    "notesCombined": "Led a successful campaign in 2023.",
+    "embedding": [
+      0.12,
+      0.24,
+      0.36,
+      0.48,
+      0.6
+    ]
+  },
+  {
+    "contactId": "102",
+    "userId": "400",
+    "name": "Bob Johnson",
+    "jobTitle": "Sales Representative",
+    "tags": [
+      "sales",
+      "representative"
+    ],
+    "notesCombined": "Closed a $1M deal last quarter. Best sales in the world",
+    "embedding": [
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6
+    ]
+  },
+  {
+    "contactId": "103",
+    "userId": "400",
+    "name": "Charlie Brown",
+    "jobTitle": "Software Engineer",
+    "tags": [
+      "developer",
+      "engineer",
+      "software"
+    ],
+    "notesCombined": "Presented at a tech conference about AI.",
+    "embedding": [
+      0.15,
+      0.25,
+      0.35,
+      0.45,
+      0.55
+    ]
+  },
+  {
+    "contactId": "104",
+    "userId": "400",
+    "name": "Diana Prince",
+    "jobTitle": "Project Manager",
+    "tags": [
+      "project",
+      "manager"
+    ],
+    "notesCombined": "Managed multiple cross-functional teams in 2022.",
+    "embedding": [
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7
+    ]
+  },
+  {
+    "contactId": "105",
+    "userId": "400",
+    "name": "Eve Adams",
+    "jobTitle": "HR Specialist",
+    "tags": [
+      "hr",
+      "specialist",
+      "recruiter"
+    ],
+    "notesCombined": "Successfully recruited 10+ candidates in 2024.",
+    "embedding": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5
+    ]
+  },
+  {
+    "contactId": "106",
+    "userId": "400",
+    "name": "Frank Wright",
+    "jobTitle": "Data Scientist",
+    "tags": [
+      "data",
+      "scientist",
+      "ai"
+    ],
+    "notesCombined": "Developed a machine learning model for fraud detection.",
+    "embedding": [
+      0.25,
+      0.35,
+      0.45,
+      0.55,
+      0.65
+    ]
+  },
+  {
+    "contactId": "107",
+    "userId": "400",
+    "name": "Grace Hopper",
+    "jobTitle": "Cybersecurity Analyst",
+    "tags": [
+      "cybersecurity",
+      "analyst"
+    ],
+    "notesCombined": "Implemented a new security protocol in 2024.",
+    "embedding": [
+      0.04,
+      0.05,
+      0.06,
+      0.07,
+      0.08
+    ]
+  },
+  {
+    "contactId": "108",
+    "userId": "400",
+    "name": "Hank Green",
+    "jobTitle": "Environmental Consultant",
+    "tags": [
+      "environment",
+      "consultant"
+    ],
+    "notesCombined": "Provided analysis for a renewable energy project.",
+    "embedding": [
+      0.02,
+      0.03,
+      0.04,
+      0.05,
+      0.06
+    ]
+  },
+  {
+    "contactId": "109",
+    "userId": "400",
+    "name": "Ivy Lee",
+    "jobTitle": "Content Creator",
+    "tags": [
+      "content",
+      "creator",
+      "marketing"
+    ],
+    "notesCombined": "Created viral videos with over 1M views in 2023.",
+    "embedding": [
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.09
+    ]
+  },
+  {
+    "contactId": "110",
+    "userId": "400",
+    "name": "Jack Frost",
+    "jobTitle": "UX Designer",
+    "tags": [
+      "ux",
+      "designer",
+      "user-experience"
+    ],
+    "notesCombined": "Redesigned the user interface for a mobile app.",
+    "embedding": [
+      0.035,
+      0.045,
+      0.055,
+      0.065,
+      0.075
+    ]
+  },
+  {
+    "contactId": "110",
+    "userId": "400",
+    "name": "John Doe",
+    "jobTitle": "Export agent",
+    "tags": [
+      "export",
+      "skin",
+      "leather"
+    ],
+    "notesCombined": "Drunk in the shanghai bar. Exporting leather from China to US/UK. Especially for cars. Working with car producers, like toyota, geely",
+
+    "embedding": [
+      0.035,
+      0.045,
+      0.055,
+      0.065,
+      0.075
+    ]
+  }
+]

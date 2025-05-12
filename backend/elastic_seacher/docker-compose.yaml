@@ -1,0 +1,37 @@
+version: "3.8"
+
+networks:
+  external_python:
+    driver: bridge
+
+services:
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.17.1
+    container_name: es01
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - xpack.encryptedSavedObjects.enabled=false
+      - xpack.security.transport.ssl.enabled=false
+      - xpack.security.http.ssl.enabled=false
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    networks:
+      - external_python
+
+
+  python_app:
+    build: .
+    container_name: python_external_app
+    # Expose port 8000 of the FastAPI app to the host machine.
+    ports:
+      - "8000:8000"
+    depends_on:
+      - es01
+    # Example environment variables to reference Elasticsearch container.
+    environment:
+      - ELASTICSEARCH_HOST=es01
+      - ELASTICSEARCH_PORT=9200
+    networks:
+      - external_python
